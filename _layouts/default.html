@@ -30,9 +30,9 @@
                 <a href="/"><h2>mshameers'</h2>
 		<h1>BLOG</h1></a>
                 <ul>
-                    <li><a href="/about.html/">about</a></li>
-		    <li><a href="/archive.html/">archive</a></li>
-		    <li><a href="/category.html/"id="categories">categories<span class="categories-text"></span></a></li>
+                    <li><a href="/about.html">about</a></li>
+		    <li><a href="/archive.html">archive</a></li>
+		    <li><a href="/category.html"id="categories">categories<span class="categories-text"></span></a></li>
 		    	{% for category in site.categories %}
  		    <li><a href="/category.html/#{{ category | first }}"><pre>    --{{ category | first }}</pre></a></li>
 			{% endfor %}
