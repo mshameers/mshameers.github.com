@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en-us">
+    <head>
+        <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+        <title>{{ page.title }}</title>
+        <meta name="author" content="msahmeers" />
+       <!-- <link href="http://feeds.feedburner.com/AnupJadhav" rel="alternate" title="mshameers" type="application/atom+xml" />-->
+
+        <!-- syntax highlighting CSS -->
+        <link rel="stylesheet" href="/css/syntax.css" type="text/css" />
+
+        <link rel="stylesheet" href="/css/reset.css" type="text/css" media="screen, projection" />
+        <!-- Homepage CSS -->
+        <link rel="stylesheet" href="/css/screen.css" type="text/css" media="screen, projection" />
+
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js" type="text/javascript"> </script>
+        <script src="http://widgets.twimg.com/j/2/widget.js" charset="utf-8"> </script>
+
+    </head>
+    <body>
+
+        <div id="wrapper">
+            <div id="nav">
+                <a href="/">
+                  <!--   <img src="http://www.gravatar.com/avatar/0f55aa4d5b1c8a4f77f6438333211bbb.png" height="75" width="75" class="avatar" /> -->
+                </a>
+                <p/>
+		
+
+                <a href="/"><h2>mshameers'</h2>
+		<h1>BLOG</h1></a>
+                <ul>
+                    <li><a href="/about.html/">about</a></li>
+		    <li><a href="/archive.html/">archive</a></li>
+		    <li><a href="/category.html/"id="categories">categories<span class="categories-text"></span></a></li>
+		    	{% for category in site.categories %}
+ 		    <li><a href="/category.html/#{{ category | first }}"><pre>    --{{ category | first }}</pre></a></li>
+			{% endfor %}
+                </ul>
+                <ul class="info">
+                    <li>
+                        <a href="https://github.com/mshameers" id="github">
+                          <img src="/images/icons/github.png" alt="github" height="16" width="16" />
+                          <span class="github-text"></span>
+                        </a>
+                    </li>
+                    
+                    <li>
+                        <a href="http://www.facebook.com/in/m.shameer.s" id="facebook">
+                          <img src="/images/icons/facebook.png" alt="facebook" height="16" width="16" />
+                          <span class="facebook-text"></span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="mailto:m.shameer.s@gmail.com" id="email">
+                          <img src="/images/icons/email.png" alt="email" height="16" width="16" />
+                          <span class="email-text">&nbsp;</span>
+                        </a>
+                    </li>
+			<p id="copyright">© 2012 mshameers</p>
+                </ul>
+            </div>
+
+            <div id="contentwrapper">
+                <div id="content">
+                    {{ content }}
+                </div>
+            </div>
+            
+            <!-- <p id="copyright">© 2012 mshameers</p> -->
+        </div>
+
+        <!-- Google Analytics -->
+        <script type="text/javascript">
+
+          var _gaq = _gaq || [];
+          _gaq.push(['_setAccount', 'UA-17629471-1']);
+          _gaq.push(['_trackPageview']);
+
+          (function() {
+            var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+            ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+            var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+          })();
+
+        </script>
+        <!-- Google Analytics end -->
+        <script src="/js/default.js" type="text/javascript"></script>
+    </body>
+</html>

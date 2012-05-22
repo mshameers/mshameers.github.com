@@ -1,0 +1,5 @@
+_drafts/
+_jekyll_s3.yml
+_site/
+.DS_Store
+*.swp
