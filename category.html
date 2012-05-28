@@ -7,7 +7,7 @@ title: mshameers
 <h2>Categories:</h2>
 <li><h3><span>
 {% for category in site.categories %}
-  <a href="    #{{ category | first }}">{{ category | first }}</a>
+  <a href="    #{{ category | first }}">{{ category | first }}[{{ category | last | size }}]</a>
 {% endfor %}
 </span></h3></li>
 
