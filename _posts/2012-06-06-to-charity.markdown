@@ -44,4 +44,7 @@ To the arguments,
 
 The needy persons wont come unless they understands, their is no one near them, who really cares. 
 
-***Important***: Dont stop giving money to the \'poor\', since it is the shortcut to reach charity..:)
+***Important***: Dont stop giving money to the \'poor\', since it is the shortcut to reach charity..:)   
+
+
+
