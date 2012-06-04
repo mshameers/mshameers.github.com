@@ -14,7 +14,11 @@ Most of the charity \'works\' i see around, revolves around the life of \'poor\'
 
 Let\'s take some from our real life. Out of these, which is charity? 
 
-__Does helping a 90year old man to pass urine, come under charity? or giving money to a sweeper\'s son\'s education, charity? Does serving meal for 100 needy come under charity or funding a bulding project for the \'poor\' to live come under charity?Does buying some things from them for money,come under charity or washing the cloths of a visually challenged, charity.__
+__Does helping a 90year old man to pass urine, come under charity? or giving money to a sweeper\'s son\'s education, charity? 
+
+Does serving meal for 100 needy come under charity or funding a bulding project for the \'poor\' to live come under charity? 
+
+Does buying some things from visually challenged for money,come under charity or washing the cloths of them, charity.__
 
 If most of the votes will go for saying all are charity, How is it so?  In our minds, including mine, charity is bonded with money to some extend. Because it is the easiest and all of us, those reading this has, it, atleast to serve a \'poor\'s\' one meal. I tend to do what/which is easy for me and argues, it is not that easy..:). Coming back to the question, some of the arguments are 
 
