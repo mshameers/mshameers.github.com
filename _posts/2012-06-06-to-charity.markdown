@@ -1,6 +1,6 @@
 ---
 layout: post
-title: to charity aka carity
+title: to charity
 comments: true
 categories: myLife
 ---
