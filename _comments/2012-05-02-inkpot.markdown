@@ -1,6 +1,6 @@
 ---
- - post_id: inkPot
-categories: pyQT
+post_id: /pyQT/2012/05/02/inkpot
+
 ---
 
 
