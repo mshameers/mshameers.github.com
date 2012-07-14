@@ -1,1 +1,7 @@
+---
+ - title: inkPot
+categories: pyQT
+---
+
+
 comment
