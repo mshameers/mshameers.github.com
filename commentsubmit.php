@@ -62,6 +62,8 @@ foreach ($_POST as $key => $value) {
 if (mail($EMAIL_ADDRESS, $SUBJECT, $msg, "From: $EMAIL_ADDRESS"))
 {
 	include $COMMENT_RECEIVED;
+	{% include comment_received.html %}
+
 }
 else
 {

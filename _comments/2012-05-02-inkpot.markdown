@@ -1,5 +1,5 @@
 ---
- - title: inkPot
+ - post_id: inkPot
 categories: pyQT
 ---
 
