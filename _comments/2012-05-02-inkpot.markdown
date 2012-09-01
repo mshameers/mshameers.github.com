@@ -1,7 +1,0 @@
----
-post_id: /pyQT/2012/05/02/inkpot
-
----
-
-
-comment
